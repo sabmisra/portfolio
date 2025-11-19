@@ -254,7 +254,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: sabmisra@gmail.com
 - **Phone**: +91 8249949227
 - **Location**: Bhubaneswar, Odisha, India
-- **Portfolio**: [Live Demo](https://your-portfolio-url.com)
+- **Portfolio**: [Live Demo](https://www.abhinavmisra.in/)
 
 ---
 
