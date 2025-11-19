@@ -1,141 +1,264 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# 🚀 Abhinav Misra - AI/ML Portfolio
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+A stunning, interactive portfolio website showcasing 15+ years of software development experience with cutting-edge AI/ML animations and modern web technologies.
 
-## ✨ Technology Stack
+## ✨ Features
 
-This scaffold provides a robust foundation built with:
+### 🧠 **AI/ML Animations**
+- **Three.js Neural Network**: Interactive 3D visualization with floating nodes and connections
+- **Particle System**: Dynamic particle effects with AI-themed colors
+- **Central AI Core**: Rotating icosahedron with wireframe effects
+- **Auto-rotating Camera**: Smooth 3D scene navigation
 
-### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+### 🎬 **Smooth Animations**
+- **Framer Motion**: Scroll-triggered animations and transitions
+- **Interactive Elements**: Hover effects, 3D transforms, and micro-interactions
+- **Staggered Reveals**: Progressive content loading animations
+- **Responsive Design**: Optimized animations for all screen sizes
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+### 🎯 **Portfolio Sections**
+- **Hero Section**: Animated introduction with AI-themed background
+- **About Me**: Professional summary and certifications
+- **Experience Timeline**: Interactive career progression
+- **Technical Skills**: Categorized skill showcase with animations
+- **Key Projects**: Highlighted AI/ML and development projects
+- **Contact Section**: Professional contact information
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+## 🛠️ Tech Stack
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
+### **Frontend**
+- **Next.js 15** - React framework with App Router
+- **TypeScript 5** - Type-safe development
+- **Tailwind CSS 4** - Utility-first styling
+- **shadcn/ui** - Modern component library
 
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
+### **Animations & 3D**
+- **Three.js** - 3D graphics and WebGL
+- **React Three Fiber** - React renderer for Three.js
+- **React Three Drei** - Three.js helpers for React
+- **Framer Motion** - Production-ready motion library
 
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
+### **Development Tools**
+- **ESLint** - Code quality and consistency
+- **PostCSS** - CSS processing
+- **Hot Reload** - Development experience
 
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
+## 🎨 Design Features
 
-## 🎯 Why This Scaffold?
+### **Visual Effects**
+- **Gradient Backgrounds**: Modern color transitions
+- **Glass Morphism**: Frosted glass effects
+- **Dark Mode**: Complete theme support
+- **Responsive Layout**: Mobile-first design
 
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+### **Interactive Elements**
+- **3D Card Transforms**: Perspective and rotation effects
+- **Hover Animations**: Scale, rotate, and color transitions
+- **Loading States**: Smooth content reveals
+- **Button Interactions**: Tap and hover feedback
 
-## 🚀 Quick Start
+## 📁 Project Structure
+
+```
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx          # Root layout with theme provider
+│   │   └── page.tsx           # Main portfolio page
+│   ├── components/
+│   │   ├── ui/                # shadcn/ui components
+│   │   ├── animated-ai-background.tsx  # Three.js AI scene
+│   │   ├── skill-card.tsx      # Animated skill cards
+│   │   ├── experience-timeline.tsx  # Animated timeline
+│   │   └── theme-provider.tsx  # Theme context
+│   └── hooks/
+│       └── use-toast.ts        # Toast notifications
+├── public/
+│   ├── favicon.png             # Custom favicon
+│   └── hero-bg.jpg           # Background image
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### **Prerequisites**
+- Node.js 18+ 
+- npm or yarn
+
+### **Installation**
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+### **Build for Production**
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
+# Build the application
 npm run build
 
 # Start production server
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
+## ⚡ Performance
 
-## 🤖 Powered by Z.ai
+### **Optimization Features**
+- **Code Splitting**: Automatic route-based splitting
+- **Image Optimization**: Next.js Image component
+- **Font Optimization**: Google Fonts with Next.js
+- **Bundle Analysis**: Optimized dependencies
+- **Tree Shaking**: Unused code elimination
 
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
+### **Animation Performance**
+- **Hardware Acceleration**: GPU-accelerated animations
+- **React.memo**: Component memoization
+- **Lazy Loading**: On-demand component loading
+- **Optimized Renders**: Efficient re-rendering
 
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
+## 🎯 Customization
 
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+### **Personal Information**
+Update your details in `src/app/page.tsx`:
 
-## 📁 Project Structure
+```typescript
+const experience = [
+  {
+    company: 'Your Company',
+    position: 'Your Position',
+    period: 'Start Date – Present',
+    description: 'Your role description',
+    type: 'current'
+  }
+  // ... more experiences
+];
 
+const skills = {
+  'Frontend': ['React', 'TypeScript', 'Tailwind'],
+  'Backend': ['Node.js', 'Python', 'Django'],
+  // ... more skills
+};
 ```
-src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+
+### **Theme Customization**
+Modify colors in `tailwind.config.js`:
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          // Your custom colors
+        }
+      }
+    }
+  }
+}
 ```
 
-## 🎨 Available Features & Components
+### **Animation Tweaks**
+Adjust animation parameters in component files:
 
-This scaffold includes a comprehensive set of modern web development tools:
+```typescript
+// Example: Modify AI background animation
+<motion.div
+  animate={{ 
+    scale: [1, 1.1, 1],
+    opacity: [1, 0.5, 1],
+  }}
+  transition={{
+    duration: 2,
+    repeat: Infinity,
+    ease: "easeInOut"
+  }}
+/>
+```
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+## 🔧 Configuration
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+### **Environment Variables**
+Create `.env.local` for environment-specific settings:
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+```env
+NEXT_PUBLIC_GA_ID=your_google_analytics_id
+NEXT_PUBLIC_API_URL=your_api_endpoint
+```
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+### **Next.js Configuration**
+Customize `next.config.js` for additional features:
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
+```javascript
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    // Experimental features
+  },
+  images: {
+    domains: ['your-domain.com'],
+  },
+}
 
-## 🤝 Get Started with Z.ai
+module.exports = nextConfig
+```
 
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+## 📱 Browser Support
+
+- **Chrome/Edge**: Full support with all animations
+- **Firefox**: Full support with optimized performance
+- **Safari**: Full support with fallback animations
+- **Mobile**: Responsive design with touch interactions
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **[Next.js](https://nextjs.org/)** - The React framework
+- **[Three.js](https://threejs.org/)** - 3D graphics library
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+- **[Tailwind CSS](https://tailwindcss.com/)** - CSS framework
+- **[shadcn/ui](https://ui.shadcn.com/)** - Component library
+- **[Lucide](https://lucide.dev/)** - Icon library
+
+## 📞 Contact
+
+- **Email**: sabmisra@gmail.com
+- **Phone**: +91 8249949227
+- **Location**: Bhubaneswar, Odisha, India
+- **Portfolio**: [Live Demo](https://your-portfolio-url.com)
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+<div align="center">
+  <p>🚀 Built with passion, AI, and modern web technologies</p>
+  <p>⭐ Star this repo if it inspired you!</p>
+</div>
